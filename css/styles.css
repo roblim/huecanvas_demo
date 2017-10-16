@@ -193,6 +193,14 @@ p {
 	padding-bottom: 30px;
 }
 
+.download {
+	/*width: 100px;
+	height: 100px;*/
+	position: absolute;
+	top: 400px;
+	left: 48%;
+}
+
 .footer a {
 	color: #999;
 
