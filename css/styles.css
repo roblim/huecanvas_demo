@@ -6,17 +6,18 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
 	background-color: #fea74a;
-	width: 99%;
-	height: 1870px;
+	/*width: 90%;*/
+	height: 1820px;
 }
 
 .hero-img {
-	background-image: url('https://img-cache.coolshop.com/90184e83-38ad-484e-9b15-d0425e31a216/hueambilight-1l.jpg');
+	background-image: url('http://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/39/2016/02/Philips_Ambilight_Hue_lifestyle.jpeg');
 	height: 560px;
-	width: 101.3%;
+	width: 100%;
+	background: center right cover no-repeat;
 	position: absolute;
-	top: -10px;
-	left: -10px;
+	top: 0px;
+	left: 0px;
 	box-sizing: border-box;
 	/*background-repeat: repeat-x;*/
 }
@@ -24,22 +25,22 @@ body {
 .dimmer{
 	background-color: rgba(0, 0, 0, 0.5);
 	/*background-size: cover;*/
-	height: 370px;
-	width: 88.9%;
-	padding: 100px;
+	height: 560px;
+	width: 100%;
+	/*padding: 100px;*/
 	/*box-sizing: border-box;*/
 
 	/*position: absolute;*/
 	position: absolute;
-	top: -10px;
-	left: -50px;
+	top: 0px;
+	left: 0px;
 	/*z-index: 1;*/
 }
 
 .fork-me {
 	position: absolute;
-	top: 15px;
-	left: 50px;
+	top: 0px;
+	left: 0px;
 	z-index: 0;
 }
 
@@ -67,7 +68,7 @@ p {
 }
 
 .title {
-	margin-top: 60px;
+	margin-top: 130px;
 	font-size: 3em;
 }
 
@@ -86,17 +87,37 @@ p {
 }
 
 .screenShot {
+	/*margin: auto;*/
 	border-radius: .2em;
 	border: 1px solid #bfbfbf;
 	border-bottom-width: 2px;
 	border-color: rgba(0,0,0,0.15);
 	margin-right: 20px;
+	margin-left: 20px;
+	/*margin-left: 15%;*/
+}
+
+.max-holder {
+	display: flex;
+	max-width: 1310px;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px
+}
+
+.max-holder-col {
+	padding-left: 50px;
+	padding-right: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: 1310px;
+	margin: auto;
+	box-sizing: border-box;
 }
 
 .about {
 	margin-top: 570px;
-	padding-left: 200px;
-	padding-right: 200px;
 }
 
 .about-title {
@@ -140,30 +161,33 @@ p {
 }
 
 .red-container {
-	display: flex;
 	background-color: #eb5a46;
-	width: 145.2%;
-	margin-left: -208px;
+	width: 101.35%;
+	margin-left: -10px;
+	/*margin-left: -208px;*/
+	display: flex;
 	margin-bottom: -22px;
 	padding-bottom: 40px;
 	padding-top: 20px;
-	padding-left: 20px;
+	padding-left: 0px;
 	padding-right: 20px;
 	box-sizing: border-box;
+	justify-content: space-around;
 }
 .blue-container {
 	display: flex;
 	margin-top: 0px;
 	background-color: #7b8fd1;
-	width: 145.2%;
-	margin-left: -208px;
+	width: 101.35%;
+	/*margin-left: -208px;*/
 	margin-bottom: 0px;
+	margin-left: -10px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	box-sizing: border-box;
-	justify-content: flex-end;
+	justify-content: space-around;
 }
 
 .blue-container img {
@@ -180,17 +204,23 @@ p {
 }
 
 .footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	/*justify-content: space-between;*/
 	padding: 20px;
-	padding-left: 200px;
-	padding-right: 200px;
+	/*padding-left: 200px;
+	padding-right: 200px;*/
 	box-sizing: border-box;
 	background-color: white;
-	width: 145.2%;
-	margin-left: -208px;
+	width: 101.35%;
+	margin-left: -10px;
+	/*margin-left: -208px;*/
 	padding-bottom: 30px;
+}
+
+.max-holder-footer {
+	display: flex;
+	justify-content: space-around;
+	/*color: red;*/
+
 }
 
 .download {
